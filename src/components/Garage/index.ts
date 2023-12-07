@@ -1,1 +1,1 @@
-export * from './Gargage'
+export * from './Garage'

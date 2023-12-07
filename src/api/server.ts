@@ -13,7 +13,7 @@ export const serverCalls = {
         // 2. methods (optional it will default to GET)
         // 3. headers (optional but usually there) authentication type & type of data 
         // 4. body (optional usually only on a POST, PUT and sometimes DELETE)
-        const response = await fetch(`https://car-inventoryjch.onrender.com/`, {
+        const response = await fetch(`https://car-inventoryjch.onrender.com/api/garage`, {
             method: 'GET',
             headers: {
                 'Content-Type' : 'application/json',
