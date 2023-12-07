@@ -29,7 +29,7 @@ import { serverCalls } from '../../api'
 import { MessageType } from '../Auth'
 
 
-export const Cart = () => {
+export const Garage = () => {
 //   setup our hooks
 const db = getDatabase();
 const [ open, setOpen ] = useState(false)
