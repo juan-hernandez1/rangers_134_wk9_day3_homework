@@ -149,7 +149,7 @@ const deleteItem = async (cartItem: ShopProps ) => {
                         variant = 'h4'
                         sx = {{ marginRight: '20px'}}
                     >
-                        Your Cart
+                        Your Garage
                     </Typography>
                     <Button color = 'primary' variant = 'contained' onClick={()=>{}} >Checkout</Button>
                 </Stack>
@@ -209,7 +209,7 @@ const deleteItem = async (cartItem: ShopProps ) => {
                                             sx = {shopStyles.button}
                                             onClick = {()=>{deleteItem(cart)}}
                                         >
-                                            Delete Item From Cart
+                                            Delete Vehicle From Garage
                                         </Button>
                                     </Stack>
                                 </CardContent>
